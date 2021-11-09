@@ -1,0 +1,2863 @@
+{
+  "errors": [],
+  "warnings": [
+    "./src/app/components/parts/dialog/SimpleAlert.tsx\nThere are multiple modules with names that only differ in casing.\nThis can lead to unexpected behavior when compiling on a filesystem with other case-semantic.\nUse equal casing. Compare these module identifiers:\n* C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\src\\app\\components\\parts\\dialog\\SimpleAlert.tsx\n    Used by 2 module(s), i. e.\n    C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\src\\app\\components\\pages\\webPage\\schoolManagement\\schoolInfoManagement\\syncSchoolInfo\\sync.tsx\n* C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\src\\app\\components\\parts\\dialog\\simpleAlert.tsx\n    Used by 2 module(s), i. e.\n    C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\node_modules\\babel-loader\\lib\\index.js!C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\src\\app\\components\\pages\\webPage\\schoolManagement\\schoolInfoManagement\\syncSchoolInfo\\history.tsx"
+  ],
+  "hash": "b1a6d8009d40ca8b71ed",
+  "publicPath": "/tpedulogin/",
+  "outputPath": "C:\\HYT-GIT\\EDU_IMDB\\tpedulogin-Frontend\\dist",
+  "assetsByChunkName": {
+    "vendors~webPage-accountManagement-accountBinding-oauthMaintenance~webPage-accountManagement-accountM~b1471760": "0.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-accountManagement-accountMaintenance~webPage-classManagement-personnelMaintenance~we~c06b8a49": "1.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-accountManagement-accountBinding-oauthMaintenance~webPage-classManagement-personnelM~67b153a8": "2.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-accountManagement-accountMaintenance~webPage-classManagement-personnelMaintenance~we~20f9661d": "3.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-accountManagement-accountMaintenance~webPage-departmentManagement-educationalInstitu~cd4aff34": "4.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-login~webPage-login-login~webPage-login-login3rd": "5.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-departmentManagement-educationalInstitutionMaintenance~webPage-departmentManagement-~edb28eab": "6.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-forgotPassword~webPage-forgotPassword-mailPage": "7.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-accountManagement-personnelMaintenance": "8.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-educationalInstitutionMaintenance": "9.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-forgotPassword": "10.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-login": "11.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-personnelManagement-studentMaintenance": "12.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo": "13.b1a6d8009d40ca8b71ed.chunk.js",
+    "app-404": "14.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-departmentManagement-editRocId": "15.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-editPassword": "16.b1a6d8009d40ca8b71ed.chunk.js",
+    "vendors~webPage-schoolManagement-classInfoManagement-classAssign": "17.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-accountManagement-accountBinding-myGsuite": "18.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-accountManagement-accountBinding-oauthMaintenance": "19.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-accountManagement-accountMaintenance": "20.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-accountManagement-parentChildBinding-parentAuthorize": "21.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-accountManagement-parentChildBinding-parentLink": "22.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-apiDoc": "23.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-classManagement-personnelMaintenance": "24.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-accountManagement-managerMaintenance": "25.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-query": "26.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-upload": "27.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-editRocId": "28.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-educationalInstitutionMaintenance-edit": "29.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-educationalInstitutionMaintenance-new": "30.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-projectMaintenance": "31.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-editPassword": "32.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-forgotPassword-mailPage": "33.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-forgotPassword-phonePage": "34.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-forgotPassword-previous": "35.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-forgotPassword-selectPage": "36.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-home": "37.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-login-login": "38.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-login-login3rd": "39.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-qna": "40.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-classInfoManagement-classAssign": "41.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-classInfoManagement-classInfo": "42.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-personnelManagement-parentMaintenance": "43.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-query": "44.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-upload": "45.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-personnelManagement-teacherMaintenance": "46.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-managerMaintenance": "47.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-schoolProfile": "48.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-subjectMaintenance": "49.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-history": "50.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-sync": "51.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-titleMaintenance": "52.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-schoolInfoManagement-tokenMaintenance": "53.b1a6d8009d40ca8b71ed.chunk.js",
+    "main": [
+      "assets/styles/main.css",
+      "b1a6d8009d40ca8b71ed.js"
+    ],
+    "webPage-accountManagement-README-md": "55.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-departmentManagement-README-md": "56.b1a6d8009d40ca8b71ed.chunk.js",
+    "webPage-schoolManagement-README-md": "57.b1a6d8009d40ca8b71ed.chunk.js"
+  },
+  "assets": [
+    {
+      "name": "/assets/images/captainicon.svg",
+      "size": 381274,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/NotoSansTC-Regular.otf",
+      "size": 5766428,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/captainicon.eot",
+      "size": 138328,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/captainicon.ttf",
+      "size": 138148,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/captainicon.woff",
+      "size": 138224,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/mat-icons.woff2",
+      "size": 60840,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/sf-light.woff",
+      "size": 29048,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/sf-regular.woff",
+      "size": 31784,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "/assets/styles/fonts/sf-regular.woff2",
+      "size": 24796,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "0.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 38551,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "vendors~webPage-accountManagement-accountBinding-oauthMaintenance~webPage-accountManagement-accountM~b1471760"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "1.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 8529,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~webPage-accountManagement-accountMaintenance~webPage-classManagement-personnelMaintenance~we~c06b8a49"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "10.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 21022,
+      "chunks": [
+        10,
+        33,
+        36
+      ],
+      "chunkNames": [
+        "webPage-forgotPassword"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "11.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 30101,
+      "chunks": [
+        11,
+        38,
+        39
+      ],
+      "chunkNames": [
+        "webPage-login"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "12.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 54925,
+      "chunks": [
+        12,
+        44
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-personnelManagement-studentMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "13.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 149880,
+      "chunks": [
+        13,
+        50
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "14.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 214,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "app-404"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "15.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 10653,
+      "chunks": [
+        15
+      ],
+      "chunkNames": [
+        "vendors~webPage-departmentManagement-editRocId"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "16.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15713,
+      "chunks": [
+        16,
+        5
+      ],
+      "chunkNames": [
+        "vendors~webPage-editPassword"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "17.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15230,
+      "chunks": [
+        17
+      ],
+      "chunkNames": [
+        "vendors~webPage-schoolManagement-classInfoManagement-classAssign"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "18.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 1457,
+      "chunks": [
+        18
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-accountBinding-myGsuite"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "19.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 5247,
+      "chunks": [
+        19
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-accountBinding-oauthMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "2.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15738,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "vendors~webPage-accountManagement-accountBinding-oauthMaintenance~webPage-classManagement-personnelM~67b153a8"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "20.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 32839,
+      "chunks": [
+        20
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-accountMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "21.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 2139,
+      "chunks": [
+        21
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-parentChildBinding-parentAuthorize"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "22.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 7734,
+      "chunks": [
+        22
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-parentChildBinding-parentLink"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "23.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 3994,
+      "chunks": [
+        23
+      ],
+      "chunkNames": [
+        "webPage-apiDoc"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "24.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15229,
+      "chunks": [
+        24
+      ],
+      "chunkNames": [
+        "webPage-classManagement-personnelMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "25.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 13607,
+      "chunks": [
+        25
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-accountManagement-managerMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "26.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 86371,
+      "chunks": [
+        26,
+        4
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-accountManagement-personnelMaintenance-query"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "27.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 8903,
+      "chunks": [
+        27
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-accountManagement-personnelMaintenance-upload"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "28.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 10298,
+      "chunks": [
+        28
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-editRocId"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "29.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 11162,
+      "chunks": [
+        29
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-educationalInstitutionMaintenance-edit"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "3.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 10649,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "vendors~webPage-accountManagement-accountMaintenance~webPage-classManagement-personnelMaintenance~we~20f9661d"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "30.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15650,
+      "chunks": [
+        30
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-educationalInstitutionMaintenance-new"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "31.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 24668,
+      "chunks": [
+        31
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-projectMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "32.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 7709,
+      "chunks": [
+        32
+      ],
+      "chunkNames": [
+        "webPage-editPassword"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "33.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 10984,
+      "chunks": [
+        33
+      ],
+      "chunkNames": [
+        "webPage-forgotPassword-mailPage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "34.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 35849,
+      "chunks": [
+        34,
+        5,
+        7,
+        16,
+        35
+      ],
+      "chunkNames": [
+        "webPage-forgotPassword-phonePage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "35.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 6196,
+      "chunks": [
+        35
+      ],
+      "chunkNames": [
+        "webPage-forgotPassword-previous"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "36.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 3738,
+      "chunks": [
+        36
+      ],
+      "chunkNames": [
+        "webPage-forgotPassword-selectPage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "37.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 44115,
+      "chunks": [
+        37
+      ],
+      "chunkNames": [
+        "webPage-home"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "38.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 6586,
+      "chunks": [
+        38
+      ],
+      "chunkNames": [
+        "webPage-login-login"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "39.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 25642,
+      "chunks": [
+        39
+      ],
+      "chunkNames": [
+        "webPage-login-login3rd"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "4.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 24453,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "vendors~webPage-accountManagement-accountMaintenance~webPage-departmentManagement-educationalInstitu~cd4aff34"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "40.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 7984,
+      "chunks": [
+        40
+      ],
+      "chunkNames": [
+        "webPage-qna"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "41.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 9534,
+      "chunks": [
+        41
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-classInfoManagement-classAssign"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "42.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 9116,
+      "chunks": [
+        42
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-classInfoManagement-classInfo"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "43.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 17212,
+      "chunks": [
+        43
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-personnelManagement-parentMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "44.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 24693,
+      "chunks": [
+        44
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-personnelManagement-studentMaintenance-query"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "45.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 25345,
+      "chunks": [
+        45
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-personnelManagement-studentMaintenance-upload"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "46.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 23765,
+      "chunks": [
+        46
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-personnelManagement-teacherMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "47.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 13667,
+      "chunks": [
+        47
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-managerMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "48.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 2248,
+      "chunks": [
+        48
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-schoolProfile"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "49.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 9538,
+      "chunks": [
+        49
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-subjectMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "5.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 15449,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "vendors~webPage-login~webPage-login-login~webPage-login-login3rd"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "50.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 115527,
+      "chunks": [
+        50
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-history"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "51.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 30149,
+      "chunks": [
+        51
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-sync"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "52.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 12211,
+      "chunks": [
+        52
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-titleMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "53.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 13287,
+      "chunks": [
+        53
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-schoolInfoManagement-tokenMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "55.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 127,
+      "chunks": [
+        55
+      ],
+      "chunkNames": [
+        "webPage-accountManagement-README-md"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "56.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 121,
+      "chunks": [
+        56
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-README-md"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "57.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 121,
+      "chunks": [
+        57
+      ],
+      "chunkNames": [
+        "webPage-schoolManagement-README-md"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "6.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 32877,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "vendors~webPage-departmentManagement-educationalInstitutionMaintenance~webPage-departmentManagement-~edb28eab"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "7.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 24261,
+      "chunks": [
+        7,
+        5,
+        16
+      ],
+      "chunkNames": [
+        "vendors~webPage-forgotPassword~webPage-forgotPassword-mailPage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "8.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 107016,
+      "chunks": [
+        8,
+        4,
+        26
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-accountManagement-personnelMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "9.b1a6d8009d40ca8b71ed.chunk.js",
+      "size": 37066,
+      "chunks": [
+        9,
+        29
+      ],
+      "chunkNames": [
+        "webPage-departmentManagement-educationalInstitutionMaintenance"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "assets/styles/main.css",
+      "size": 213685,
+      "chunks": [
+        54
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "b1a6d8009d40ca8b71ed.js",
+      "size": 459538,
+      "chunks": [
+        54
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        54
+      ],
+      "assets": [
+        "assets/styles/main.css",
+        "b1a6d8009d40ca8b71ed.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "app-404": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "14.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "app-404-tsx": {
+      "chunks": [
+        14
+      ],
+      "assets": [
+        "14.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "app-_config": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "app-_config-tsx": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "privateRouter": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "privateRouter-tsx": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "router": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "router-tsx": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-_config": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-_config-tsx": {
+      "chunks": [],
+      "assets": [],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-README-md": {
+      "chunks": [
+        55
+      ],
+      "assets": [
+        "55.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountBinding-myGsuite": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "18.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountBinding-myGsuite-tsx": {
+      "chunks": [
+        18
+      ],
+      "assets": [
+        "18.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountBinding-oauthMaintenance": {
+      "chunks": [
+        0,
+        2,
+        19
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "19.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountBinding-oauthMaintenance-tsx": {
+      "chunks": [
+        0,
+        2,
+        19
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "19.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountMaintenance": {
+      "chunks": [
+        0,
+        1,
+        3,
+        4,
+        20
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "20.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-accountMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        3,
+        4,
+        20
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "20.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-parentChildBinding-parentAuthorize": {
+      "chunks": [
+        21
+      ],
+      "assets": [
+        "21.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-parentChildBinding-parentAuthorize-tsx": {
+      "chunks": [
+        21
+      ],
+      "assets": [
+        "21.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-parentChildBinding-parentLink": {
+      "chunks": [
+        22
+      ],
+      "assets": [
+        "22.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-accountManagement-parentChildBinding-parentLink-tsx": {
+      "chunks": [
+        22
+      ],
+      "assets": [
+        "22.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-apiDoc": {
+      "chunks": [
+        23
+      ],
+      "assets": [
+        "23.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-apiDoc-tsx": {
+      "chunks": [
+        23
+      ],
+      "assets": [
+        "23.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-classManagement-personnelMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        24
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "24.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-classManagement-personnelMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        24
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "24.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-README-md": {
+      "chunks": [
+        56
+      ],
+      "assets": [
+        "56.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-managerMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        25
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "25.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-managerMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        25
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "25.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        8
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "8.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-index": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        8
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "8.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        8
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "8.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-query": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        26
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "26.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-query-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        26
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "26.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-upload": {
+      "chunks": [
+        27
+      ],
+      "assets": [
+        "27.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-accountManagement-personnelMaintenance-upload-tsx": {
+      "chunks": [
+        27
+      ],
+      "assets": [
+        "27.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-editRocId": {
+      "chunks": [
+        0,
+        1,
+        3,
+        15,
+        28
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "15.b1a6d8009d40ca8b71ed.chunk.js",
+        "28.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-editRocId-tsx": {
+      "chunks": [
+        0,
+        1,
+        3,
+        15,
+        28
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "15.b1a6d8009d40ca8b71ed.chunk.js",
+        "28.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-edit": {
+      "chunks": [
+        0,
+        1,
+        4,
+        6,
+        29
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "6.b1a6d8009d40ca8b71ed.chunk.js",
+        "29.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-edit-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        6,
+        29
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "6.b1a6d8009d40ca8b71ed.chunk.js",
+        "29.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance": {
+      "chunks": [
+        0,
+        1,
+        4,
+        6,
+        9
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "6.b1a6d8009d40ca8b71ed.chunk.js",
+        "9.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-index": {
+      "chunks": [
+        0,
+        1,
+        4,
+        6,
+        9
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "6.b1a6d8009d40ca8b71ed.chunk.js",
+        "9.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        6,
+        9
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "6.b1a6d8009d40ca8b71ed.chunk.js",
+        "9.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-new": {
+      "chunks": [
+        0,
+        1,
+        30
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "30.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-educationalInstitutionMaintenance-new-tsx": {
+      "chunks": [
+        0,
+        1,
+        30
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "30.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-projectMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        31
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "31.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-departmentManagement-projectMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        31
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "31.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-editPassword": {
+      "chunks": [
+        0,
+        1,
+        4,
+        16,
+        32
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "16.b1a6d8009d40ca8b71ed.chunk.js",
+        "32.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-editPassword-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        16,
+        32
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "16.b1a6d8009d40ca8b71ed.chunk.js",
+        "32.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword": {
+      "chunks": [
+        0,
+        1,
+        4,
+        7,
+        10
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "7.b1a6d8009d40ca8b71ed.chunk.js",
+        "10.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-index": {
+      "chunks": [
+        0,
+        1,
+        4,
+        7,
+        10
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "7.b1a6d8009d40ca8b71ed.chunk.js",
+        "10.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        7,
+        10
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "7.b1a6d8009d40ca8b71ed.chunk.js",
+        "10.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-mailPage": {
+      "chunks": [
+        0,
+        1,
+        4,
+        7,
+        33
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "7.b1a6d8009d40ca8b71ed.chunk.js",
+        "33.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-mailPage-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        7,
+        33
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "7.b1a6d8009d40ca8b71ed.chunk.js",
+        "33.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-phonePage": {
+      "chunks": [
+        0,
+        1,
+        4,
+        34
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "34.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-phonePage-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        34
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "34.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-previous": {
+      "chunks": [
+        35
+      ],
+      "assets": [
+        "35.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-previous-tsx": {
+      "chunks": [
+        35
+      ],
+      "assets": [
+        "35.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-selectPage": {
+      "chunks": [
+        36
+      ],
+      "assets": [
+        "36.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-forgotPassword-selectPage-tsx": {
+      "chunks": [
+        36
+      ],
+      "assets": [
+        "36.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-home": {
+      "chunks": [
+        0,
+        1,
+        3,
+        4,
+        37
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "37.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-home-tsx": {
+      "chunks": [
+        0,
+        1,
+        3,
+        4,
+        37
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "37.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        11
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "11.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-index": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        11
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "11.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        11
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "11.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-login": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        38
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "38.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-login-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        38
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "38.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-login3rd": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        39
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "39.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-login-login3rd-tsx": {
+      "chunks": [
+        0,
+        1,
+        4,
+        5,
+        39
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "4.b1a6d8009d40ca8b71ed.chunk.js",
+        "5.b1a6d8009d40ca8b71ed.chunk.js",
+        "39.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-qna": {
+      "chunks": [
+        40
+      ],
+      "assets": [
+        "40.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-qna-tsx": {
+      "chunks": [
+        40
+      ],
+      "assets": [
+        "40.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-README-md": {
+      "chunks": [
+        57
+      ],
+      "assets": [
+        "57.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-classInfoManagement-classAssign": {
+      "chunks": [
+        0,
+        1,
+        17,
+        41
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "17.b1a6d8009d40ca8b71ed.chunk.js",
+        "41.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-classInfoManagement-classAssign-tsx": {
+      "chunks": [
+        0,
+        1,
+        17,
+        41
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "17.b1a6d8009d40ca8b71ed.chunk.js",
+        "41.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-classInfoManagement-classInfo": {
+      "chunks": [
+        0,
+        1,
+        2,
+        42
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "42.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-classInfoManagement-classInfo-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        42
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "42.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-parentMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        43
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "43.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-parentMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        43
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "43.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        12
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "12.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-index": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        12
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "12.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        12
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "12.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-query": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        44
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "44.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-query-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        44
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "44.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-upload": {
+      "chunks": [
+        0,
+        45
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "45.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-studentMaintenance-upload-tsx": {
+      "chunks": [
+        0,
+        45
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "45.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-teacherMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        46
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "46.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-personnelManagement-teacherMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        46
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "46.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-managerMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        47
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "47.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-managerMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        47
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "47.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-schoolProfile": {
+      "chunks": [
+        48
+      ],
+      "assets": [
+        "48.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-schoolProfile-tsx": {
+      "chunks": [
+        48
+      ],
+      "assets": [
+        "48.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-subjectMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        49
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "49.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-subjectMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        49
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "49.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-history": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        50
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "50.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-history-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        50
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "50.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        13
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "13.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-index": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        13
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "13.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-index-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        13
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "13.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-sync": {
+      "chunks": [
+        0,
+        3,
+        51
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "51.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-syncSchoolInfo-sync-tsx": {
+      "chunks": [
+        0,
+        3,
+        51
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "51.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-titleMaintenance": {
+      "chunks": [
+        0,
+        2,
+        52
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "52.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-titleMaintenance-tsx": {
+      "chunks": [
+        0,
+        2,
+        52
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "52.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-tokenMaintenance": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        53
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "53.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "webPage-schoolManagement-schoolInfoManagement-tokenMaintenance-tsx": {
+      "chunks": [
+        0,
+        1,
+        2,
+        3,
+        53
+      ],
+      "assets": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js",
+        "1.b1a6d8009d40ca8b71ed.chunk.js",
+        "2.b1a6d8009d40ca8b71ed.chunk.js",
+        "3.b1a6d8009d40ca8b71ed.chunk.js",
+        "53.b1a6d8009d40ca8b71ed.chunk.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 0,
+      "files": [
+        "0.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 1,
+      "files": [
+        "1.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 2,
+      "files": [
+        "2.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 3,
+      "files": [
+        "3.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 4,
+      "files": [
+        "4.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 5,
+      "files": [
+        "5.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 6,
+      "files": [
+        "6.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 7,
+      "files": [
+        "7.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 8,
+      "files": [
+        "8.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 9,
+      "files": [
+        "9.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 10,
+      "files": [
+        "10.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 11,
+      "files": [
+        "11.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 12,
+      "files": [
+        "12.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 13,
+      "files": [
+        "13.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 14,
+      "files": [
+        "14.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 15,
+      "files": [
+        "15.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 16,
+      "files": [
+        "16.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 17,
+      "files": [
+        "17.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 18,
+      "files": [
+        "18.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 19,
+      "files": [
+        "19.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 20,
+      "files": [
+        "20.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 21,
+      "files": [
+        "21.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 22,
+      "files": [
+        "22.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 23,
+      "files": [
+        "23.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 24,
+      "files": [
+        "24.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 25,
+      "files": [
+        "25.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 26,
+      "files": [
+        "26.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 27,
+      "files": [
+        "27.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 28,
+      "files": [
+        "28.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 29,
+      "files": [
+        "29.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 30,
+      "files": [
+        "30.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 31,
+      "files": [
+        "31.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 32,
+      "files": [
+        "32.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 33,
+      "files": [
+        "33.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 34,
+      "files": [
+        "34.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 35,
+      "files": [
+        "35.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 36,
+      "files": [
+        "36.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 37,
+      "files": [
+        "37.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 38,
+      "files": [
+        "38.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 39,
+      "files": [
+        "39.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 40,
+      "files": [
+        "40.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 41,
+      "files": [
+        "41.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 42,
+      "files": [
+        "42.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 43,
+      "files": [
+        "43.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 44,
+      "files": [
+        "44.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 45,
+      "files": [
+        "45.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 46,
+      "files": [
+        "46.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 47,
+      "files": [
+        "47.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 48,
+      "files": [
+        "48.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 49,
+      "files": [
+        "49.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 50,
+      "files": [
+        "50.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 51,
+      "files": [
+        "51.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 52,
+      "files": [
+        "52.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 53,
+      "files": [
+        "53.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 54,
+      "files": [
+        "assets/styles/main.css",
+        "b1a6d8009d40ca8b71ed.js"
+      ]
+    },
+    {
+      "id": 55,
+      "files": [
+        "55.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 56,
+      "files": [
+        "56.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    },
+    {
+      "id": 57,
+      "files": [
+        "57.b1a6d8009d40ca8b71ed.chunk.js"
+      ]
+    }
+  ]
+}
